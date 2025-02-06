@@ -1,0 +1,152 @@
+[
+  {
+    "author": {
+      "name": "Kishan Raj",
+      "countryCode": "IN",
+      "email": "krb021@nist.edu",
+      "image": "https://th.bing.com/th/id/OIP.6ZtksDjLlSbZVEcSVWwsvQHaNK?w=720&h=1280&rs=1&pid=ImgDetMain",
+      "qualification": "BTech"
+    },
+    "category": "Green Living",
+    "content": "Hey guyzz, let's talk about how small changes can make big environmental impacts!",
+    "date": "2025-01-15",
+    "description": "Simple tips for a greener lifestyle.",
+    "heading": "Go Green in 2025",
+    "readMore": "https://example.com/go-green-2025"
+  },
+  {
+    "author": {
+      "name": "Aarav Mehta",
+      "countryCode": "IN",
+      "email": "aaravm@eco.com",
+      "image": "https://th.bing.com/th/id/R.e99b64b038cb9526d9544712556c2cbd?rik=s85xy%2bJhfyv4EA&riu=http%3a%2f%2fpm1.aminoapps.com%2f7418%2f967398db76d125fca0389944ff6acc8756aaf6ffr1-720-1280v2_uhq.jpg&ehk=XK%2fOgFGHO6WffHL4iqaVgU4TrrR%2f%2bFD%2b7j82sv9Rd0I%3d&risl=&pid=ImgRaw&r=0",
+      "qualification": "MSc Environmental Science"
+    },
+    "category": "Sustainable Travel",
+    "content": "Discover eco-friendly travel destinations in 2025!",
+    "date": "2025-02-10",
+    "description": "Top sustainable spots to explore this year.",
+    "heading": "Eco-Friendly Destinations",
+    "readMore": "https://example.com/sustainable-travel-2025"
+  },
+  {
+    "author": {
+      "name": "Neha Sharma",
+      "countryCode": "IN",
+      "email": "nehas@wellness.org",
+      "image": "https://th.bing.com/th/id/OIP.cLtqb_MPQuNEEI20AH-VrgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain",
+      "qualification": "BSc Nutrition"
+    },
+    "category": "Healthy Living",
+    "content": "Easy tips to kickstart your healthy lifestyle journey.",
+    "date": "2025-03-05",
+    "description": "Simple ways to stay fit and healthy.",
+    "heading": "Health Tips for 2025",
+    "readMore": "https://example.com/health-tips-2025"
+  },
+  {
+    "author": {
+      "name": "Rohan Verma",
+      "countryCode": "IN",
+      "email": "rohanv@techworld.com",
+      "image": "https://th.bing.com/th/id/OIP.cLtqb_MPQuNEEI20AH-VrgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain",
+      "qualification": "BTech Computer Science"
+    },
+    "category": "Technology",
+    "content": "The future of AI and its impact on daily life.",
+    "date": "2025-04-20",
+    "description": "Exploring AI advancements in 2025.",
+    "heading": "AI Trends to Watch",
+    "readMore": "https://example.com/ai-trends-2025"
+  },
+  {
+    "author": {
+      "name": "Priya Singh",
+      "countryCode": "IN",
+      "email": "priyas@fashionhub.com",
+      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
+      "qualification": "BA Fashion Design"
+    },
+    "category": "Fashion",
+    "content": "Sustainable fashion trends you need to know!",
+    "date": "2025-05-15",
+    "description": "Eco-friendly fashion choices for 2025.",
+    "heading": "Sustainable Style Guide",
+    "readMore": "https://example.com/sustainable-fashion-2025"
+  },
+  {
+    "author": {
+      "name": "Vikram Das",
+      "countryCode": "IN",
+      "email": "vikramd@financepro.com",
+      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
+      "qualification": "MBA Finance"
+    },
+    "category": "Finance",
+    "content": "Smart investment tips to grow your wealth in 2025.",
+    "date": "2025-06-12",
+    "description": "Financial strategies for a successful year.",
+    "heading": "Invest Smart in 2025",
+    "readMore": "https://example.com/investment-tips-2025"
+  },
+  {
+    "author": {
+      "name": "Ananya Roy",
+      "countryCode": "IN",
+      "email": "ananyar@culinaryworld.com",
+      "image": "https://th.bing.com/th/id/R.045e824980145e0c57073f9ebd17ae70?rik=HccG0DPrCWbfbw&riu=http%3a%2f%2finspiredluv.com%2fwp-content%2fuploads%2f2016%2f09%2f3-beautiful-girl-image.jpg&ehk=ARWXPFsprJEaoEoQCn7GfyFy5uOqHZWEXbfvbiMR8iw%3d&risl=&pid=ImgRaw&r=0",
+      "qualification": "Diploma Culinary Arts"
+    },
+    "category": "Food",
+    "content": "Explore the best vegan recipes of 2025!",
+    "date": "2025-07-18",
+    "description": "Delicious and healthy vegan meals.",
+    "heading": "Vegan Delights",
+    "readMore": "https://example.com/vegan-recipes-2025"
+  },
+  {
+    "author": {
+      "name": "Arjun Patel",
+      "countryCode": "IN",
+      "email": "arjunp@fitnesszone.com",
+      "image": "https://th.bing.com/th/id/R.045e824980145e0c57073f9ebd17ae70?rik=HccG0DPrCWbfbw&riu=http%3a%2f%2finspiredluv.com%2fwp-content%2fuploads%2f2016%2f09%2f3-beautiful-girl-image.jpg&ehk=ARWXPFsprJEaoEoQCn7GfyFy5uOqHZWEXbfvbiMR8iw%3d&risl=&pid=ImgRaw&r=0",
+      "qualification": "Certified Fitness Trainer"
+    },
+    "category": "Fitness",
+    "content": "Top workouts to stay fit and active in 2025.",
+    "date": "2025-08-08",
+    "description": "Effective exercise routines for all levels.",
+    "heading": "Fitness Goals 2025",
+    "readMore": "https://example.com/fitness-routines-2025"
+  },
+  {
+    "author": {
+      "name": "Meera Kapoor",
+      "countryCode": "IN",
+      "email": "meerak@parentingtips.com",
+      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
+      "qualification": "MA Psychology"
+    },
+    "category": "Parenting",
+    "content": "Modern parenting tips for the digital age.",
+    "date": "2025-09-25",
+    "description": "Balancing screen time and family time.",
+    "heading": "Parenting in 2025",
+    "readMore": "https://example.com/parenting-tips-2025"
+  },
+  {
+    "author": {
+      "name": "Rahul Nair",
+      "countryCode": "IN",
+      "email": "rahuln@travelogue.com",
+      "image": "https://th.bing.com/th/id/OIP._DBrtMZ7DbPJrq-h5W9GrQHaNK?rs=1&pid=ImgDetMain",
+      "qualification": "BA Tourism Management"
+    },
+    "category": "Travel",
+    "content": "Hidden gems you should visit in 2025!",
+    "date": "2025-10-30",
+    "description": "Off-the-beaten-path travel destinations.",
+    "heading": "Explore Hidden Destinations",
+    "readMore": "https://example.com/hidden-travel-gems-2025"
+  }
+]

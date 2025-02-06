@@ -1,0 +1,121 @@
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createBlog,
+.readBlog {
+    display: flex;
+    width: 80%;
+    background-color: #100e0e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(56, 55, 55);
+}
+
+.initPara {
+    width: 90%;
+    line-height: 2em;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.searchBlog {
+    display: block;
+    width: 90%;
+    height: 800px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnblog {
+    margin-top: 20px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222324;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btnblog:hover {
+    background-color: #98a19a;
+    color: black;
+}
+
+.recentBlog {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    box-shadow: 10 10 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.containerBox {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #100e0e;
+    box-shadow: 10px -10px 10px rgb(56, 55, 55);
+    border-radius: 10px;
+}
+
+.containerBox h2{
+    padding: 10px;
+}
+
+.containerBox .searchBox{
+    border: 2px solid wheat;
+    width: 320px;
+    background-color: rgb(57, 57, 54);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+ }
+
+.blogCard{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 600px) {
+
+    .blogCard {
+      margin: 0px;
+      padding: 0;
+    }
+    .createBlog,
+    .readBlog {
+        display: flex;
+        flex-direction: column;
+    }
+    .containerBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerBox .searchBox{
+        margin-top: 20px;
+        width: 240px;
+    }
+}

@@ -1,0 +1,25 @@
+.blogArticle{
+    background-color: aqua;
+}
+
+.blogContent{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+}
+
+.writerImageDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg{
+    border: 2px solid white;
+    margin: 2px ;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
