@@ -9,7 +9,7 @@ export default function RecentCard({ blogInfo }) {
 
   const handleReadMore = () => {
     localStorage.setItem('selectedBlog', JSON.stringify(blogInfo));
-    navigate(`/readBlog`, { state: blogInfo });
+    navigate(`/readBlog/${_id}`, { state: blogInfo });
   }
 
   return (

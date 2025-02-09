@@ -19,7 +19,7 @@ function App() {
           <Route path="/category" element={<Category />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/createBlog" element={<CreateBlog />} />
-          <Route path="/readBlog" element={<ReadBlog />} />
+          <Route path="/readBlog/:_id" element={<ReadBlog />} />
         </Routes>
         <FooterUI />
       </Router>

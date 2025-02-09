@@ -7,19 +7,14 @@ export default function DataProvider({ children }) {
   const [allBlog, setAllBlog] = useState([]);
 
   useEffect(() => {
-    fetch("./data/blog.json")
+    fetch("/data/blog.json")
       .then((response) => response.json())
-      .then((data) => {
-        {
-          setAllBlog(data)
-        }
+      .then((data) => {setAllBlog(data)
       })
       .catch((e) => {
-        console.log(e)
-        setIsLoader(false);
+        console.error(e)
       })
-
-  }, [])
+  },[])
 
    return (
     <DataContext.Provider value={{ newBlog, setNewBlog, allBlog, setAllBlog }}>

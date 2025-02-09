@@ -30,5 +30,101 @@
     "description": "Top sustainable spots to explore this year.",
     "heading": "Eco-Friendly Destinations",
     "readMore": "https://example.com/sustainable-travel-2025"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12347",
+    "author": {
+      "name": "Neha Sharma",
+      "countryCode": "IN",
+      "email": "nehas@greenthoughts.com",
+      "image": "https://imgv3.fotor.com/images/gallery/cartoon-character-generated-by-Fotor-ai-art-creator.jpg",
+      "qualification": "PhD Climate Science"
+    },
+    "category": "Renewable Energy",
+    "content": "Solar panels are becoming more affordable. Is 2025 the year to switch?",
+    "date": "2025-02-08",
+    "description": "A deep dive into the latest trends in renewable energy.",
+    "heading": "The Rise of Solar Power",
+    "readMore": "https://example.com/solar-power-2025"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12348",
+    "author": {
+      "name": "Rahul Verma",
+      "countryCode": "IN",
+      "email": "rahulv@techbio.com",
+      "image": "https://th.bing.com/th/id/OIP.qaj_83pSngQpRrwW_WFEAAHaNK?rs=1&pid=ImgDetMain",
+      "qualification": "BTech Biotechnology"
+    },
+    "category": "Biodegradable Tech",
+    "content": "Are biodegradable plastics the solution to our pollution crisis?",
+    "date": "2025-02-05",
+    "description": "A look at the latest advancements in sustainable materials.",
+    "heading": "The Future of Eco-Friendly Plastics",
+    "readMore": "https://example.com/biodegradable-tech"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12349",
+    "author": {
+      "name": "Ananya Das",
+      "countryCode": "IN",
+      "email": "ananyad@organiclife.com",
+      "image": "https://th.bing.com/th/id/OIP.cLtqb_MPQuNEEI20AH-VrgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain",
+      "qualification": "MSc Agriculture"
+    },
+    "category": "Organic Farming",
+    "content": "Why organic farming is booming in 2025 and how you can get started.",
+    "date": "2025-02-02",
+    "description": "The benefits and challenges of going organic.",
+    "heading": "Organic Farming in 2025",
+    "readMore": "https://example.com/organic-farming-2025"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12350",
+    "author": {
+      "name": "Vikram Singh",
+      "countryCode": "IN",
+      "email": "vikram@climateawareness.com",
+      "image": "https://i.pinimg.com/736x/ba/b1/5d/bab15d1414afa5254613de7609483d2e.jpg",
+      "qualification": "BSc Environmental Science"
+    },
+    "category": "Climate Change",
+    "content": "Understanding the real impact of climate change in 2025.",
+    "date": "2025-01-28",
+    "description": "What recent reports say about global warming trends.",
+    "heading": "Climate Crisis: 2025 Report",
+    "readMore": "https://example.com/climate-crisis-2025"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12351",
+    "author": {
+      "name": "Meera Kapoor",
+      "countryCode": "IN",
+      "email": "meerak@greenhome.com",
+      "image": "https://i.pinimg.com/originals/09/be/8b/09be8beffc20e77111401fa4bf79a195.jpg",
+      "qualification": "MArch Sustainable Design"
+    },
+    "category": "Eco-Friendly Homes",
+    "content": "Building a sustainable home: What you need to know in 2025.",
+    "date": "2025-01-20",
+    "description": "Tips and technologies for an energy-efficient home.",
+    "heading": "Sustainable Living Spaces",
+    "readMore": "https://example.com/eco-friendly-homes"
+  },
+  {
+    "_id": "65c1a5b8f4a9c9b2e8d12352",
+    "author": {
+      "name": "Rohan Patel",
+      "countryCode": "IN",
+      "email": "rohanp@recycleworld.com",
+      "image": "https://i.pinimg.com/originals/1e/fa/a8/1efaa8f60038c2aa0edee9c0af694991.jpg",
+      "qualification": "MBA Sustainability"
+    },
+    "category": "Recycling Innovations",
+    "content": "New recycling technologies are changing the waste management game.",
+    "date": "2025-01-18",
+    "description": "How AI and robotics are transforming recycling.",
+    "heading": "Smart Recycling in 2025",
+    "readMore": "https://example.com/smart-recycling"
   }
 ]
