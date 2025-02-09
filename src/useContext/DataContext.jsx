@@ -1,31 +1,33 @@
 import React, { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
-const DataContext = createContext();
+const DataContext = createContext(null);
 
 export default function DataProvider({ children }) {
   const [newBlog, setNewBlog] = useState([]);
   const [allBlog, setAllBlog] = useState([]);
-  // const [selectedBlog, setSelectedBlog] = useState({
-  //   id:"",heading: "", category: "", content: "", date: "", author: {
-  //     name: "", email: "", qualification: "", image: "", countryCode: "",
-  //   }
-  // });
 
   useEffect(() => {
     fetch("./data/blog.json")
       .then((response) => response.json())
       .then((data) => {
-        setAllBlog(data)
-        console.log(data)
+        {
+          setAllBlog(data)
+        }
       })
-      .catch((e) => console.log(e))
+      .catch((e) => {
+        console.log(e)
+        setIsLoader(false);
+      })
+
   }, [])
 
-  return (
-    <DataContext.Provider value={{ newBlog, setNewBlog, allBlog, setAllBlog, }}>
+   return (
+    <DataContext.Provider value={{ newBlog, setNewBlog, allBlog, setAllBlog }}>
       {children}
     </DataContext.Provider>
   )
 }
 
-export const useData = () => useContext(DataContext);
+export const useData = () => {
+  return useContext(DataContext);
+};

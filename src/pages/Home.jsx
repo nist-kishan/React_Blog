@@ -1,15 +1,15 @@
-import React, {useRef} from 'react'
+import React, { useRef, useState } from 'react'
 import homeStyle from "../css/home.module.css"
 import RecentCard from '../UI/RecentCard'
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useData } from '../useContext/DataContext'
 
 
 export default function Home() {
     const searchRef = useRef();
-    const navigate=useNavigate();
-    const{allBlog}=useData();
-    
+    const navigate = useNavigate();
+    const { allBlog } = useData();
+
     const handleCreateBlog = () => {
         navigate('/createBlog');
     }
@@ -17,6 +17,7 @@ export default function Home() {
     const handleSearchBlog = () => {
         searchRef.current.focus()
     }
+
 
     return (
         <>
