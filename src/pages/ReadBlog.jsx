@@ -1,10 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import readBlogStyle from '../css/readBlog.module.css';
-import { useData } from '../useContext/DataContext';
+import { useNavigate } from 'react-router-dom';
 
 export default function ReadBlog() {
-    const { selectedBlog } = useData();
-    
+    const navigate=useNavigate();
+   const [selectedBlog,setSelectedblog]=useState(()=>{
+    return JSON.parse(localStorage.getItem('selectedBlog'))
+   });
+   useEffect(() => {
+    if (selectedBlog) {
+      localStorage.setItem("selectedBlog", JSON.stringify(selectedBlog));
+    }
+  }, [selectedBlog]);
+  
+  useEffect(() => {
+    return () => {
+      localStorage.removeItem("selectedBlog");
+    };
+  }, []);
+  
+  const handleClose=()=>{
+    navigate(-1);
+  }
+  
     return (
         <article>
             <div className={readBlogStyle.blurBackground}>
@@ -37,7 +55,7 @@ export default function ReadBlog() {
             </div>
 
             <div className={readBlogStyle.btn}>
-                <button type="button" className={readBlogStyle.closeBtn}>
+                <button type="button" className={readBlogStyle.closeBtn} onClick={handleClose}>
                     Close
                 </button>
             </div>

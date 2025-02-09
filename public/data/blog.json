@@ -1,5 +1,6 @@
 [
   {
+    "_id": "65c1a5b8f4a9c9b2e8d12345",
     "author": {
       "name": "Kishan Raj",
       "countryCode": "IN",
@@ -15,6 +16,7 @@
     "readMore": "https://example.com/go-green-2025"
   },
   {
+    "_id": "65c1a5b8f4a9c9b2e8d12346",
     "author": {
       "name": "Aarav Mehta",
       "countryCode": "IN",
@@ -28,125 +30,5 @@
     "description": "Top sustainable spots to explore this year.",
     "heading": "Eco-Friendly Destinations",
     "readMore": "https://example.com/sustainable-travel-2025"
-  },
-  {
-    "author": {
-      "name": "Neha Sharma",
-      "countryCode": "IN",
-      "email": "nehas@wellness.org",
-      "image": "https://th.bing.com/th/id/OIP.cLtqb_MPQuNEEI20AH-VrgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain",
-      "qualification": "BSc Nutrition"
-    },
-    "category": "Healthy Living",
-    "content": "Easy tips to kickstart your healthy lifestyle journey.",
-    "date": "2025-03-05",
-    "description": "Simple ways to stay fit and healthy.",
-    "heading": "Health Tips for 2025",
-    "readMore": "https://example.com/health-tips-2025"
-  },
-  {
-    "author": {
-      "name": "Rohan Verma",
-      "countryCode": "IN",
-      "email": "rohanv@techworld.com",
-      "image": "https://th.bing.com/th/id/OIP.cLtqb_MPQuNEEI20AH-VrgHaE7?w=2048&h=1365&rs=1&pid=ImgDetMain",
-      "qualification": "BTech Computer Science"
-    },
-    "category": "Technology",
-    "content": "The future of AI and its impact on daily life.",
-    "date": "2025-04-20",
-    "description": "Exploring AI advancements in 2025.",
-    "heading": "AI Trends to Watch",
-    "readMore": "https://example.com/ai-trends-2025"
-  },
-  {
-    "author": {
-      "name": "Priya Singh",
-      "countryCode": "IN",
-      "email": "priyas@fashionhub.com",
-      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
-      "qualification": "BA Fashion Design"
-    },
-    "category": "Fashion",
-    "content": "Sustainable fashion trends you need to know!",
-    "date": "2025-05-15",
-    "description": "Eco-friendly fashion choices for 2025.",
-    "heading": "Sustainable Style Guide",
-    "readMore": "https://example.com/sustainable-fashion-2025"
-  },
-  {
-    "author": {
-      "name": "Vikram Das",
-      "countryCode": "IN",
-      "email": "vikramd@financepro.com",
-      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
-      "qualification": "MBA Finance"
-    },
-    "category": "Finance",
-    "content": "Smart investment tips to grow your wealth in 2025.",
-    "date": "2025-06-12",
-    "description": "Financial strategies for a successful year.",
-    "heading": "Invest Smart in 2025",
-    "readMore": "https://example.com/investment-tips-2025"
-  },
-  {
-    "author": {
-      "name": "Ananya Roy",
-      "countryCode": "IN",
-      "email": "ananyar@culinaryworld.com",
-      "image": "https://th.bing.com/th/id/R.045e824980145e0c57073f9ebd17ae70?rik=HccG0DPrCWbfbw&riu=http%3a%2f%2finspiredluv.com%2fwp-content%2fuploads%2f2016%2f09%2f3-beautiful-girl-image.jpg&ehk=ARWXPFsprJEaoEoQCn7GfyFy5uOqHZWEXbfvbiMR8iw%3d&risl=&pid=ImgRaw&r=0",
-      "qualification": "Diploma Culinary Arts"
-    },
-    "category": "Food",
-    "content": "Explore the best vegan recipes of 2025!",
-    "date": "2025-07-18",
-    "description": "Delicious and healthy vegan meals.",
-    "heading": "Vegan Delights",
-    "readMore": "https://example.com/vegan-recipes-2025"
-  },
-  {
-    "author": {
-      "name": "Arjun Patel",
-      "countryCode": "IN",
-      "email": "arjunp@fitnesszone.com",
-      "image": "https://th.bing.com/th/id/R.045e824980145e0c57073f9ebd17ae70?rik=HccG0DPrCWbfbw&riu=http%3a%2f%2finspiredluv.com%2fwp-content%2fuploads%2f2016%2f09%2f3-beautiful-girl-image.jpg&ehk=ARWXPFsprJEaoEoQCn7GfyFy5uOqHZWEXbfvbiMR8iw%3d&risl=&pid=ImgRaw&r=0",
-      "qualification": "Certified Fitness Trainer"
-    },
-    "category": "Fitness",
-    "content": "Top workouts to stay fit and active in 2025.",
-    "date": "2025-08-08",
-    "description": "Effective exercise routines for all levels.",
-    "heading": "Fitness Goals 2025",
-    "readMore": "https://example.com/fitness-routines-2025"
-  },
-  {
-    "author": {
-      "name": "Meera Kapoor",
-      "countryCode": "IN",
-      "email": "meerak@parentingtips.com",
-      "image": "https://i.pinimg.com/736x/35/1d/9f/351d9f4c24511e0adc40fccd22375724.jpg",
-      "qualification": "MA Psychology"
-    },
-    "category": "Parenting",
-    "content": "Modern parenting tips for the digital age.",
-    "date": "2025-09-25",
-    "description": "Balancing screen time and family time.",
-    "heading": "Parenting in 2025",
-    "readMore": "https://example.com/parenting-tips-2025"
-  },
-  {
-    "author": {
-      "name": "Rahul Nair",
-      "countryCode": "IN",
-      "email": "rahuln@travelogue.com",
-      "image": "https://th.bing.com/th/id/OIP._DBrtMZ7DbPJrq-h5W9GrQHaNK?rs=1&pid=ImgDetMain",
-      "qualification": "BA Tourism Management"
-    },
-    "category": "Travel",
-    "content": "Hidden gems you should visit in 2025!",
-    "date": "2025-10-30",
-    "description": "Off-the-beaten-path travel destinations.",
-    "heading": "Explore Hidden Destinations",
-    "readMore": "https://example.com/hidden-travel-gems-2025"
   }
 ]
