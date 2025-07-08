@@ -1,5 +1,6 @@
 # Blogging Platform
 
+## Description
 A full-featured MERN stack blogging platform that allows users to register, create, edit, and delete blog posts. The platform supports rich text editing, authentication, authorization, and a responsive UI.
 
 ## Live
