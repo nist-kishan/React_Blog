@@ -31,21 +31,21 @@ https://imaginative-raindrop-adc973.netlify.app/
 
 ## Folder Structure
 
-client/
-├── public/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── redux/
-│ ├── App.jsx
-│ └── main.jsx
+client/\n
+├── public/\n
+├── src/\n
+│ ├── components/\n
+│ ├── pages/\n
+│ ├── redux/\n
+│ ├── App.jsx\n
+│ └── main.jsx\n\n
 
-server/
-├── controllers/
-├── models/
-├── routes/
-├── middleware/
-└── index.js
+server/\n
+├── controllers/\n
+├── models/\n
+├── routes/\n
+├── middleware/\n
+└── index.js\n
 
 
 ## Installation
