@@ -31,7 +31,7 @@ https://imaginative-raindrop-adc973.netlify.app/
 
 ## Folder Structure
 
-client/\n
+client/<br>
 ├── public/\n
 ├── src/\n
 │ ├── components/\n
