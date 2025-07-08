@@ -1,8 +1,77 @@
-# Blogging Website
+# Blogging Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured MERN stack blogging platform that allows users to register, create, edit, and delete blog posts. The platform supports rich text editing, authentication, authorization, and a responsive UI.
 
-Currently, two official plugins are available:
+## Live
+https://imaginative-raindrop-adc973.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- User authentication (register/login)
+- Create, edit, and delete blog posts
+- Rich text editor for formatting
+- Responsive and mobile-friendly UI
+- Dark/light theme support
+- Clean and minimalistic design
+- Public and private blog handling
+- Commenting system (optional/future feature)
+
+## Tech Stack
+
+- React
+- Node.js
+- Express.js
+- MongoDB
+- JWT (Authentication)
+- Bcrypt (Password hashing)
+- Redux Toolkit (State management)
+- React Router
+- Tailwind CSS
+- Toast notifications
+
+## Folder Structure
+
+client/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── redux/
+│ ├── App.jsx
+│ └── main.jsx
+
+server/
+├── controllers/
+├── models/
+├── routes/
+├── middleware/
+└── index.js
+
+
+## Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/nist-kishan/React_Blog.git
+cd React_Blog
+
+cd client
+npm install
+
+cd ../server
+npm install
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+# In one terminal
+cd server
+npm run dev
+
+# In another terminal
+cd client
+npm run dev
+
+Open in browser: http://localhost:5173```
