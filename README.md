@@ -32,6 +32,7 @@ https://imaginative-raindrop-adc973.netlify.app/
 
 ## Folder Structure
 
+```
 client/<br>
 ├── public/<br>
 ├── src/<br>
@@ -46,7 +47,7 @@ server/<br>
 ├── routes/<br>
 ├── middleware/<br>
 └── index.js<br>
-
+```
 
 ## Installation
 
@@ -57,26 +58,33 @@ git clone https://github.com/nist-kishan/React_Blog.git
 cd React_Blog
 ```
 
-```cd client
+```
+cd client
 npm install
 ```
-```cd ../server
+```
+cd ../server
 npm install
 ```
 
-```PORT=5000
+```
+PORT=5000
 ```
 
-```MONGO_URI=your_mongodb_connection_string
+```
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
 # In one terminal
-```cd server
+```
+cd server
 npm run dev
 ```
 # In another terminal
-```cd client
+```
+cd client
+```
 ```
 npm run dev
-
+```
 Open in browser: http://localhost:5173```
